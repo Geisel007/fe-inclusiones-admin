@@ -16,9 +16,7 @@ const App = () => {
   return (
     <UserProvider>
       <LoadingProvider>
-        <RouterProvider 
-          router={Router} 
-        />
+        <RouterProvider router={Router} />
       </LoadingProvider>
     </UserProvider>
   )

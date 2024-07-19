@@ -1,0 +1,25 @@
+.home-screen-layout-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--background2);
+}
+
+.home-screen-layout-side-bar {
+  display: flex;
+  width: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-screen-layout-container-content {
+  display: flex; 
+  flex-direction: column; 
+  width: 95%;
+}
+
+.home-screen-layout-content {
+  height: 100%; 
+}

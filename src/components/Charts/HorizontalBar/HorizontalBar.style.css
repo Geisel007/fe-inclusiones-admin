@@ -1,0 +1,52 @@
+.container {
+    width: 744px;
+    height: 394px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .chart {
+    flex-grow: 1;
+}
+
+.container .legend {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 2px;
+}
+
+.container .legend .option {
+    position: relative;
+    display: block;
+    height: 17px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container .legend .option .box {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
+    border-radius: 2px;
+    display: inline-block;
+    background-color: red;
+}
+
+.container .legend .option .text {
+    position: relative;
+    display: inline-block;
+    top: -25%;
+    color: var(--text2);
+}
+
+.container .legend .option .text.selected {
+    text-decoration: line-through;
+}
