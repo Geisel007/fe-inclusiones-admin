@@ -1,5 +1,5 @@
 // React
-import React, { createContext, useState }  from 'react'
+import React, { createContext, useState }  from "react"
 
 const UserContext = createContext([null, () => null])
 
@@ -9,12 +9,10 @@ const UserContext = createContext([null, () => null])
  * @returns {JSX.Element} User provider component.
  */
 const UserProvider = (props) => {
-  const [user, setUser] = useState(JSON.parse(localStorage.getItem('userInformation')) )
+  const [user, setUser] = useState(JSON.parse(localStorage.getItem("userInformation")) )
 
   return (
-    <UserContext.Provider 
-      value={[user, setUser]} 
-    >
+    <UserContext.Provider value={[user, setUser]} >
       {props.children}
     </UserContext.Provider >
   )

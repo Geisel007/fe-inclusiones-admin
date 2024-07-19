@@ -12,9 +12,7 @@ const LoadingProvider = (props) => {
   const [showLoading, setShowLoading] = useState(false)
 
   return (
-    <LoadingContext.Provider 
-      value={[showLoading, setShowLoading]} 
-    >
+    <LoadingContext.Provider value={[showLoading, setShowLoading]} >
       {props.children}
     </LoadingContext.Provider >
   )
