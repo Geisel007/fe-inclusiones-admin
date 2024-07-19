@@ -1,0 +1,39 @@
+.modal-detail-enroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.modal-detail-enroll .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  height: 35px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.modal-detail-enroll .control-detail-enroll {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.modal-detail-enroll .container-detail-enroll {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-detail-enroll .sub-container {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
