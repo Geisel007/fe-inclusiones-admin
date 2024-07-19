@@ -1,0 +1,54 @@
+.side-bar-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.side-bar-container .option-side-bar {
+  cursor: pointer;
+  padding-right: 1vw;
+}
+
+.side-bar-container .open-side-bar {
+  min-width: 30vw;
+  position: absolute;
+  height: 100%;
+  background-color: var(--background1);
+  z-index: 10;
+  box-shadow: 1px 1px 4px var(--shadow2);
+  padding-top: 15px;
+}
+
+.open-side-bar .icon-close-side-bar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.side-bar-container .sub-container-side-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.side-bar-container .side-bar-options {
+  list-style: unset;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0%;
+
+}
+
+.side-bar-options li {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+.side-bar-options li:hover {
+  background: var(--shadow2);
+}
+
