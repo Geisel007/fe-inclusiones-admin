@@ -1,0 +1,28 @@
+.home-container {
+  display: flex;
+  width: 98%;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.container-graph {
+  border-radius: 8px;
+  background-color: var(--background1);
+  width: 98%;
+  height: 80%;
+  box-shadow: 1px 1px 4px var(--shadow2);
+  display: flex;
+  align-items: center;
+}
+
+.container-graph .chart-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
