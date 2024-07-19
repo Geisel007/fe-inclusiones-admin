@@ -1,0 +1,35 @@
+.container-create-account-page {
+  background-color: transparent;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-create-account-page .sub-container-logo-tec {
+  background-color: var(--white-regular);
+  width: 40%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.container-create-account-page .sub-container-create-account {
+  background-color: var(--blue-tec);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-container-create-account .create-account {
+  display: flex;
+  flex-direction: column;
+  margin: 5vw;
+  height: 80%;
+  justify-content: space-between;
+}
+
+.create-account .span-reset-pass {
+  cursor: pointer;
+  margin-left: 1vw;
+}
