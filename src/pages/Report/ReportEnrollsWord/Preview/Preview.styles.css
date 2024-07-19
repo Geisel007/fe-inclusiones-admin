@@ -1,0 +1,38 @@
+.table-preview {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-preview .th-table-preview, .td-table-preview {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-preview thead .th-table-preview {
+  font-weight: bold;
+}
+
+.table-preview .th-table-preview[colspan="4"],
+.table-preview .th-table-preview[colspan="6"] {
+  text-align: left;
+  font-weight: normal;
+}
+
+.table-preview tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.table-preview tr:hover {
+  background-color: #ddd;
+}
+
+.table-preview tr:first-child {
+  background-color: #eee;
+}
+
+.table-container {
+  height: 650px;
+  overflow-y: auto;
+}

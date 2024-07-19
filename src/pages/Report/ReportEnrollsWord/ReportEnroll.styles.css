@@ -1,0 +1,12 @@
+.report-enrolls-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.btn-download-enrolls {
+  width: 15%;
+  align-self: end;
+}
