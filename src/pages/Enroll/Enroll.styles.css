@@ -1,0 +1,25 @@
+.enroll-container {
+  display: flex;
+  max-width: 98%;
+  max-height: 95%;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: var(--background1);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  align-items: center;
+}
+
+.enroll-container .enroll-container-table {
+  width: 100%;
+}
+
+ .modal-details {
+  width: 50%;
+  height: 80%;
+  background-color: var(--background1);
+  position: absolute;
+  z-index: 10;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+}
